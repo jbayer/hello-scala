@@ -3,7 +3,7 @@ hello-scala
 
 Example scala application that can be deployed to a PaaS like Cloud Foundry or Heroku with a buildpack.
 
-## Cloud Foundry deployment using [run.pivotal.io](https://console.run.pivotal.io) as an example
+## Cloud Foundry deployment using [run.pivotal.io](https://console.run.pivotal.io)
 
 - git clone https://github.com/jbayer/hello-scala.git
 - (optional) make any edits to the manifest.mf file
