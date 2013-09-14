@@ -3,7 +3,7 @@ applications:
 - name: hello-scala
   memory: 256M
   instances: 1
-  host: hello-scala
+  host: hello-scala-${random-word}
   domain: cfapps.io
   path: .
   buildpack: https://github.com/heroku/heroku-buildpack-scala.git
